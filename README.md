@@ -9,6 +9,3 @@ Basta informar o local desejado, e o chatbot retornará informações como ender
 - Suporte para diferentes tipos de estabelecimentos e pontos de interesse.
 =======
 - Suporte para diferentes tipos de estabelecimentos e pontos de interesse.
-
-## Estrutura do Projeto
->>>>>>> 45c670818e7e4a0c4aee81df7d25fb1f39b6f888
