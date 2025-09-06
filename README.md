@@ -5,7 +5,5 @@ Basta informar o local desejado, e o chatbot retornará informações como ender
 ## Funcionalidades
 - Busca direta por locais a partir do texto digitado pelo usuário.
 - Respostas rápidas e objetivas.
-<<<<<<< HEAD
 - Suporte para diferentes tipos de estabelecimentos e pontos de interesse.
-=======
 - Suporte para diferentes tipos de estabelecimentos e pontos de interesse.
