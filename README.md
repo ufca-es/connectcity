@@ -9,3 +9,11 @@ Basta informar o local desejado, e o chatbot retornará informações como ender
 - Suporte para diferentes tipos de estabelecimentos e pontos de interesse.
 
 ## Estrutura do Projeto
+
+├── src/ # Código-fonte do chatbot
+│ ├── main.py # Arquivo principal
+│ └── utils.py # Funções auxiliares
+├── docs/ # Documentação
+├── tests/ # Testes automatizados
+├── .gitignore # Arquivos/pastas a serem ignorados
+└── README.md # Descrição do projeto
