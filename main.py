@@ -1,8 +1,7 @@
 import json
-import os # Importe a biblioteca os
+import os
 
 def base_json(caminho_arquivo):
-    """Carrega o conteúdo de um arquivo JSON."""
     try:
         with open(caminho_arquivo, 'r', encoding='utf-8') as arquivo:
             dados = json.load(arquivo)
@@ -12,8 +11,6 @@ def base_json(caminho_arquivo):
         return None 
 
 def chatbot():
-    # Defina o caminho correto para o seu arquivo de dados
-    # Use o nome correto do seu arquivo aqui
     caminho_dados = os.path.join("data", "perguntas_respostas.json") 
     
     base = base_json(caminho_dados)
