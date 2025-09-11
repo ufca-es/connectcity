@@ -1,0 +1,17 @@
+{
+	"Preciso de apoio psicológico":{
+		"gentil": "💜Busque ajuda no CAPS (Centro de Ajuda Psicossocial), que faz parte do SUS. Ou vá ao posto de saúde mais próximo e peça um encaminhamento. Você não está sozinho!💜",
+		"formal": "Procure ajuda no Centro de Ajuda Psicossocial (CAPS) da sua cidade. Posso te ajudar a encontrar, se desejar."
+		"direta": "Procure o CAPS local. O mais próximo de você está no endereço (XXXXXXX)."
+	},
+	"Preciso de informações sobre vacinação infantil":{
+		"gentil":"👶 As vacinas para crianças estão disponíveis nos postos de saúde! O calendário pode ser encontrado no site do Ministério da Saúde, ou no próprio posto! Recomendo que siga as redes sociais da prefeitura local também! Eles divulgam campanhas por lá! E não se esqueça da Carteira de Vacinação da criança! 👶"
+		"formal": "Procure os postos de saúde locais, e certifique-se de levar a Carteira de Vacinação da criança. As redes sociais da Prefeitura também são boas fontes de informação sobre os períodos de vacinação."
+		"direta": "Vá ao posto de saúde mais próximo, levando a Carteira de Vacinação."
+	},
+	"Quero me inscrever em um programa de auxílio do governo":{
+		"gentil": "📃 Tenta procurar um CRAS (Centro de Referência de Assistência Social) próximo a você! E leve os documentos dos membros da sua família!😉 Boa sorte!"
+		"formal": "As inscrições nos programas de auxílio do governo ocorrem no CRAS (Centro de Referência de Assistência Social). Apresente a documentação da sua família."
+		"direta": "Faça a inscrição no CRAS da sua cidade. Leve seus documentos e os da sua família."
+	}
+}
