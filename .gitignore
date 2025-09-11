@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+
+
+venv/
+.venv/
+
+/relatorio.txt
+/historico.txt
+/aprendizado.txt
+
+.DS_Store
+Thumbs.db
