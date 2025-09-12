@@ -1,37 +1,25 @@
-import json
 import os
+from chatbot.chatbot import ChatBot
 
-def base_json(caminho_arquivo):
-    try:
-        with open(caminho_arquivo, 'r', encoding='utf-8') as arquivo:
-            dados = json.load(arquivo)
-            return dados
-    except FileNotFoundError:
-        print(f"Erro: O arquivo '{caminho_arquivo}' não foi encontrado.")
-        return None 
+def main():
+    caminho_dados = os.path.join("data", "perguntas_respostas.json")
+    bot = ChatBot(caminho_dados)
 
-def chatbot():
-    caminho_dados = os.path.join("data", "perguntas_respostas.json") 
-    
-    base = base_json(caminho_dados)
-
-    if base is None:
+    if bot.base is None:
         return 
 
     print('Bem-vindo ao Connectcity. Digite SAIR para encerrar.')
-    person = str(input('Escolha a maneira como quer ser atendido (gentil, formal ou direta): ')).lower()
-    print(f"Certo, seu atendimento será feito de forma ({person}).")
+    personalidade = input('Escolha a maneira como quer ser atendido (gentil, formal ou direta): ').lower()
+    print(f"Certo, seu atendimento será feito de forma ({personalidade}).")
 
     while True:
-        pergunta = str(input('Em que posso ajudar? ')).lower()
+        pergunta = input('Em que posso ajudar? ').lower()
         if pergunta == 'sair':
             print('Foi um prazer tentar te ajudar. Até logo!')
             break
         
-        if pergunta in base and person in base[pergunta]:
-            resposta = base[pergunta][person]
-        else:
-            resposta = 'Desculpe, não entendi sua pergunta.'
+        resposta = bot.obter_resposta(pergunta, personalidade)
         print(resposta)
 
-chatbot()
+if __name__ == "__main__":
+    main()
