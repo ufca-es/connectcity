@@ -6,7 +6,7 @@ def main():
     bot = ChatBot(caminho_dados)
 
     if bot.base is None:
-        return 
+        return
 
     print('Bem-vindo ao Connectcity. Digite SAIR para encerrar.')
     personalidade = input('Escolha a maneira como quer ser atendido (gentil, formal ou direta): ').lower()
@@ -14,6 +14,12 @@ def main():
 
     while True:
         pergunta = input('Em que posso ajudar? ').lower()
+
+        if pergunta == '/mudar':
+            personalidade = input('Para qual personalidade deseja mudar? (gentil, formal, direta): ').lower()
+            print(f"Personalidade alterada para ({personalidade}).")
+            continue  # Volta para o início do loop sem processar a pergunta
+
         if pergunta == 'sair':
             print('Foi um prazer tentar te ajudar. Até logo!')
             break
