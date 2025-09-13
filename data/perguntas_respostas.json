@@ -16,5 +16,125 @@
     "gentil": "📃 Tenta procurar um CRAS (Centro de Referência de Assistência Social) próximo a você! E leve os documentos dos membros da sua família!😉 Boa sorte!",
     "formal": "As inscrições nos programas de auxílio do governo ocorrem no CRAS (Centro de Referência de Assistência Social). Apresente a documentação da sua família.",
     "direta": "Faça a inscrição no CRAS da sua cidade. Leve seus documentos e os da sua família."
+  },
+  "Onde está localizada a Estátua de Padre Cícero?": {
+    "gentil": [
+      "💛 A Estátua de Padre Cícero fica na Colina do Horto, em Juazeiro do Norte. É um lugar acolhedor e perfeito para uma visita tranquila.",
+      "😊 Localizada na Colina do Horto, a Estátua de Padre Cícero faz parte de um espaço que inclui museu e igreja, ideal para passeios em família.",
+      "💖 O monumento está na Colina do Horto, um ponto turístico e religioso da cidade, onde você será muito bem recebido.",
+      "Venha visitar a Colina do Horto 💛, onde está a Estátua de Padre Cícero, um local cheio de história e beleza."
+    ],
+    "formal": [
+      "A Estátua de Padre Cícero encontra-se na Colina do Horto, em Juazeiro do Norte – CE, constituindo um dos principais marcos religiosos da cidade.",
+      "Localizada na Colina do Horto, a Estátua de Padre Cícero é acessível diariamente e integra um complexo que inclui museu e igreja, oferecendo amplo espaço para visitação.",
+      "O monumento está situado na Colina do Horto, Juazeiro do Norte – CE, sendo ponto de peregrinação e de interesse turístico.",
+      "A Colina do Horto abriga a Estátua de Padre Cícero, destacando-se como um importante ponto cultural e religioso da cidade."
+    ],
+    "direta": [
+      "Colina do Horto, Juazeiro do Norte – CE.",
+      "Estátua de Padre Cícero: Colina do Horto, Juazeiro do Norte.",
+      "Está na Colina do Horto, ponto turístico da cidade.",
+      "Colina do Horto, Juazeiro do Norte."
+    ]
+  },
+  "Onde fica o Hospital Regional do Cariri?": {
+    "gentil": [
+      "💛 O Hospital Regional do Cariri fica na Rua Catulo da Paixão Cearense, Triângulo. Eles atendem com cuidado e atenção.",
+      "😊 Localizado no bairro Triângulo, o hospital oferece diversos serviços médicos para a comunidade.",
+      "💖 Para atendimento de saúde, vá ao Hospital Regional do Cariri, Rua Catulo da Paixão Cearense, bairro Triângulo.",
+      "Se precisar de atendimento, o Hospital Regional do Cariri 💛 fica na Rua Catulo da Paixão Cearense, bairro Triângulo."
+    ],
+    "formal": [
+      "O Hospital Regional do Cariri está situado na Rua Catulo da Paixão Cearense, bairro Triângulo, com funcionamento ininterrupto.",
+      "Localizado no bairro Triângulo, na Rua Catulo da Paixão Cearense, o Hospital Regional do Cariri é referência em diversas especialidades médicas.",
+      "O endereço do Hospital Regional do Cariri é Rua Catulo da Paixão Cearense, bairro Triângulo, Juazeiro do Norte – CE.",
+      "O Hospital Regional do Cariri, situado na Rua Catulo da Paixão Cearense, bairro Triângulo, presta atendimento médico integral à população."
+    ],
+    "direta": [
+      "Rua Catulo da Paixão Cearense, bairro Triângulo.",
+      "Hospital Regional do Cariri: Rua Catulo da Paixão Cearense, Triângulo.",
+      "Triângulo, Rua Catulo da Paixão Cearense.",
+      "Rua Catulo da Paixão Cearense, Triângulo."
+    ]
+  },
+  "Qual o endereço do Cariri Garden Shopping?": {
+    "gentil": [
+      "💛 O Cariri Garden Shopping está na Avenida Padre Cícero, nº 2555 – Triângulo. É um ótimo lugar para passear e fazer compras.",
+      "😊 Localizado na Avenida Padre Cícero, o shopping oferece lojas, alimentação e lazer para toda a família.",
+      "💖 Visite o Cariri Garden Shopping na Avenida Padre Cícero, nº 2555 – Triângulo. Lá você encontrará tudo com atenção e conforto.",
+      "O Cariri Garden Shopping 💛 recebe visitantes na Avenida Padre Cícero, nº 2555 – Triângulo, com diversas opções de compras e lazer."
+    ],
+    "formal": [
+      "O Cariri Garden Shopping encontra-se na Avenida Padre Cícero, nº 2555 – Triângulo, com funcionamento estendido da praça de alimentação.",
+      "Localizado na Avenida Padre Cícero, nº 2555 – Triângulo, o Cariri Garden Shopping recebe visitantes diariamente, oferecendo ampla variedade de lojas e serviços.",
+      "O shopping situa-se na Avenida Padre Cícero, nº 2555 – bairro Triângulo, proporcionando infraestrutura completa para compras e lazer.",
+      "O Cariri Garden Shopping, localizado na Avenida Padre Cícero, 2555 – Triângulo, oferece aos visitantes ampla estrutura comercial e de entretenimento."
+    ],
+    "direta": [
+      "Avenida Padre Cícero, nº 2555 – Triângulo.",
+      "Cariri Garden Shopping: Av. Padre Cícero, 2555, Triângulo.",
+      "Está na Av. Padre Cícero, 2555 – Triângulo.",
+      "Av. Padre Cícero, 2555 – Triângulo."
+    ]
+  },
+  "Onde está localizada a Prefeitura Municipal de Juazeiro do Norte?": {
+    "gentil": [
+      "💛 A Prefeitura Municipal de Juazeiro do Norte fica na Rua São Francisco, nº 122 – Centro. Eles estão à disposição para atendê-lo com atenção.",
+      "😊 Localizada no Centro, a Prefeitura oferece serviços administrativos com cordialidade e eficiência.",
+      "💖 Rua São Francisco, nº 122 – Centro, é onde você encontrará a Prefeitura e seu atendimento acolhedor.",
+      "Se precisar de serviços municipais, vá à Prefeitura 💛 na Rua São Francisco, nº 122 – Centro."
+    ],
+    "formal": [
+      "A Prefeitura Municipal de Juazeiro do Norte está localizada na Rua São Francisco, nº 122 – Centro, prestando serviços administrativos ao público.",
+      "O endereço da Prefeitura é Rua São Francisco, nº 122, no Centro da cidade, onde são realizados atendimentos institucionais.",
+      "A sede administrativa do município encontra-se na Rua São Francisco, nº 122 – Centro, Juazeiro do Norte – CE.",
+      "A Prefeitura Municipal de Juazeiro do Norte, situada na Rua São Francisco, nº 122 – Centro, coordena os serviços administrativos do município."
+    ],
+    "direta": [
+      "Rua São Francisco, nº 122 – Centro.",
+      "Prefeitura Municipal: Rua São Francisco, 122, Centro.",
+      "Está na Rua São Francisco, 122 – Centro.",
+      "Rua São Francisco, 122 – Centro, Juazeiro do Norte."
+    ]
+  },
+  "Onde fica a Câmara Municipal de Juazeiro do Norte?": {
+    "gentil": [
+      "💛 A Câmara Municipal fica na Rua Catulo da Paixão Cearense, nº 55 – Triângulo, e é o local das atividades legislativas da cidade.",
+      "😊 Localizada no bairro Triângulo, a Câmara recebe visitantes interessados em acompanhar o trabalho dos vereadores.",
+      "💖 Rua Catulo da Paixão Cearense, nº 55 – Triângulo, é onde acontecem as reuniões e sessões do Legislativo municipal.",
+      "Se quiser acompanhar o trabalho dos vereadores 💛, vá à Câmara Municipal na Rua Catulo da Paixão Cearense, nº 55 – Triângulo."
+    ],
+    "formal": [
+      "A Câmara Municipal está localizada na Rua Catulo da Paixão Cearense, nº 55 – bairro Triângulo, sendo responsável pelas atividades legislativas do município.",
+      "O Legislativo municipal tem sede na Rua Catulo da Paixão Cearense, nº 55 – Triângulo, Juazeiro do Norte – CE.",
+      "O endereço da Câmara Municipal é Rua Catulo da Paixão Cearense, nº 55 – bairro Triângulo, onde se realizam as sessões e atividades parlamentares.",
+      "A Câmara Municipal de Juazeiro do Norte, situada na Rua Catulo da Paixão Cearense, nº 55 – Triângulo, é o órgão legislativo do município."
+    ],
+    "direta": [
+      "Rua Catulo da Paixão Cearense, nº 55 – Triângulo.",
+      "Câmara Municipal: Rua Catulo da Paixão Cearense, 55, Triângulo.",
+      "Está na Rua Catulo da Paixão Cearense, 55 – Triângulo.",
+      "Rua Catulo da Paixão Cearense, 55 – Triângulo, Juazeiro do Norte."
+    ]
+  },
+  "Onde está a UFCA em Juazeiro do Norte?": {
+    "gentil": [
+      "💛 O campus da UFCA está na Avenida Tenente Raimundo Rocha, nº 1639 – Cidade Universitária. É um ótimo lugar para estudar e se desenvolver.",
+      "😊 Localizado na Cidade Universitária, a UFCA oferece cursos e atividades acadêmicas com atenção e suporte aos estudantes.",
+      "💖 Avenida Tenente Raimundo Rocha, nº 1639 – Cidade Universitária é o endereço do campus da UFCA, um espaço acolhedor para todos os alunos.",
+      "Se deseja estudar 💛, o campus da UFCA fica na Avenida Tenente Raimundo Rocha, nº 1639 – Cidade Universitária."
+    ],
+    "formal": [
+      "O campus da Universidade Federal do Cariri (UFCA) localiza-se na Avenida Tenente Raimundo Rocha, nº 1639 – Cidade Universitária.",
+      "A UFCA em Juazeiro do Norte está situada na Avenida Tenente Raimundo Rocha, nº 1639 – bairro Cidade Universitária, oferecendo cursos de graduação e pós-graduação.",
+      "O endereço do campus da UFCA é Avenida Tenente Raimundo Rocha, nº 1639 – Cidade Universitária, Juazeiro do Norte – CE.",
+      "A Universidade Federal do Cariri (UFCA), situada na Avenida Tenente Raimundo Rocha, nº 1639 – Cidade Universitária, disponibiliza ensino superior de excelência."
+    ],
+    "direta": [
+      "Avenida Tenente Raimundo Rocha, nº 1639 – Cidade Universitária.",
+      "UFCA: Av. Tenente Raimundo Rocha, 1639 – Cidade Universitária.",
+      "Está na Avenida Tenente Raimundo Rocha, 1639 – Cidade Universitária.",
+      "Av. Tenente Raimundo Rocha, 1639 – Cidade Universitária, Juazeiro do Norte."
+    ]
   }
 }
