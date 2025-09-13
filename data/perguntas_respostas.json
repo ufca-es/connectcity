@@ -1,22 +1,64 @@
 {
   "Preciso de apoio psicológico": {
-    "gentil": [
-      "💜Busque ajuda no CAPS (Centro de Ajuda Psicossocial), que faz parte do SUS. Ou vá ao posto de saúde mais próximo e peça um encaminhamento. Você não está sozinho!💜",
-      "Essa é uma pergunta importante! Busque ajuda no CAPS (Centro de Ajuda Psicossocial).\nMas você também pode ir ao posto de saúde para conseguir um encaminhamento."
-    ],
-    "formal": "Procure ajuda no Centro de Ajuda Psicossocial (CAPS) da sua cidade. Posso te ajudar a encontrar, se desejar.",
-    "direta": "Procure o CAPS local. O mais próximo de você está no endereço (XXXXXXX)."
-  },
+  "gentil": [
+    "💜 Busque ajuda no CAPS (Centro de Atenção Psicossocial), que faz parte do SUS. Em Juazeiro do Norte, ele fica na Rua Antônio Freitas, 118 – Bairro Tiradentes. Ou vá ao posto de saúde mais próximo e peça um encaminhamento. Você não está sozinho! 💜",
+    "Essa é uma pergunta importante! 🌱 Busque ajuda no CAPS (Centro de Atenção Psicossocial), localizado na Rua Antônio Freitas, 118 – Bairro Tiradentes, Juazeiro do Norte. Mas você também pode ir ao posto de saúde para conseguir um encaminhamento.",
+    "✨ Lembre-se: pedir ajuda é um ato de coragem. O CAPS oferece atendimento gratuito e acolhedor na Rua Antônio Freitas, 118 – Bairro Tiradentes, Juazeiro do Norte. Também é possível procurar o posto de saúde mais próximo para orientação.",
+    "Você não precisa enfrentar isso sozinho 🤝. Vá ao CAPS da sua cidade, localizado na Rua Antônio Freitas, 118 – Bairro Tiradentes, Juazeiro do Norte, ou procure um posto de saúde para conseguir encaminhamento."
+  ],
+  "formal": [
+    "Procure atendimento no Centro de Atenção Psicossocial (CAPS) da sua cidade, que integra a rede pública de saúde. Em Juazeiro do Norte, por exemplo, há o CAPS AD, localizado na Rua Antônio Freitas, Nº 118, Bairro Tiradentes.",
+    "O CAPS de Juazeiro do Norte disponibiliza apoio psicológico especializado. Recomenda-se também buscar orientação no posto de saúde mais próximo.",
+    "Para acompanhamento psicológico, dirija-se ao CAPS (Centro de Atenção Psicossocial). Em Juazeiro do Norte, um dos endereços é Rua Antônio Freitas, 118, Bairro Tiradentes.",
+    "O município dispõe de atendimento no CAPS, que faz parte do Sistema Único de Saúde, além de serviços disponíveis mediante encaminhamento em postos de saúde."
+  ],
+  "direta": [
+    "Procure o CAPS local. Em Juazeiro do Norte há o CAPS AD na Rua Antônio Freitas, 118 - Bairro Tiradentes.",
+    "CAPS – Centro de Atenção Psicossocial. Em Juazeiro do Norte: Rua Antônio Freitas, 118, Bairro Tiradentes.",
+    "Precisa de apoio psicológico? Vá ao CAPS AD, na Rua Antônio Freitas, 118 - Bairro Tiradentes, Juazeiro do Norte.",
+    "Procure o CAPS da sua cidade. Em Juazeiro do Norte, atendimento no Bairro Tiradentes, Rua Antônio Freitas, 118."
+  ]
+},
   "Preciso de informações sobre vacinação infantil": {
-    "gentil": "👶 As vacinas para crianças estão disponíveis nos postos de saúde! O calendário pode ser encontrado no site do Ministério da Saúde, ou no próprio posto! Recomendo que siga as redes sociais da prefeitura local também! Eles divulgam campanhas por lá! E não se esqueça da Carteira de Vacinação da criança! 👶",
-    "formal": "Procure os postos de saúde locais, e certifique-se de levar a Carteira de Vacinação da criança. As redes sociais da Prefeitura também são boas fontes de informação sobre os períodos de vacinação.",
-    "direta": "Vá ao posto de saúde mais próximo, levando a Carteira de Vacinação."
-  },
-  "Quero me inscrever em um programa de auxílio do governo": {
-    "gentil": "📃 Tenta procurar um CRAS (Centro de Referência de Assistência Social) próximo a você! E leve os documentos dos membros da sua família!😉 Boa sorte!",
-    "formal": "As inscrições nos programas de auxílio do governo ocorrem no CRAS (Centro de Referência de Assistência Social). Apresente a documentação da sua família.",
-    "direta": "Faça a inscrição no CRAS da sua cidade. Leve seus documentos e os da sua família."
-  },
+  "gentil": [
+    "👶 As vacinas infantis estão disponíveis nos postos de saúde da cidade! Leve a Carteira de Vacinação da criança. 💉 Você também pode acompanhar as redes sociais da Prefeitura para ficar por dentro das campanhas! 😉",
+    "💛 Para garantir a proteção dos pequenos, vá até um posto de saúde com a Carteira de Vacinação em mãos. O calendário também pode ser consultado no site do Ministério da Saúde. 🌱",
+    "✨ As campanhas de vacinação infantil são divulgadas pela Prefeitura em suas redes sociais. Mas você já pode levar a criança ao posto de saúde mais próximo, junto com a Carteira de Vacinação. 🍼",
+    "Não esqueça: a imunização é gratuita e superimportante! 🧸 Basta procurar o posto de saúde com a Carteira de Vacinação da criança. Lá você recebe todas as orientações. 🌟"
+  ],
+  "formal": [
+    "As vacinas infantis estão disponíveis nos postos de saúde. É necessário apresentar a Carteira de Vacinação da criança para atualização.",
+    "O calendário de vacinação infantil pode ser consultado junto ao Ministério da Saúde, bem como nas redes sociais da Prefeitura de Juazeiro do Norte.",
+    "Para obter informações e realizar a imunização, dirija-se ao posto de saúde mais próximo, levando a Carteira de Vacinação da criança.",
+    "A Prefeitura divulga em suas redes sociais os períodos de campanha. Recomenda-se manter a Carteira de Vacinação sempre atualizada nos postos de saúde."
+  ],
+  "direta": [
+    "Vacinação infantil é no posto de saúde. Leve a Carteira de Vacinação.",
+    "Procure o posto de saúde mais próximo com a Carteira de Vacinação da criança.",
+    "Vacinas para crianças estão disponíveis nos postos de saúde. Não esqueça da Carteira.",
+    "Leve seu filho ao posto de saúde com a Carteira de Vacinação para atualizar as doses."
+  ]
+},
+ "Quero me inscrever em um programa de auxílio do governo": {
+  "gentil": [
+    "📃 Você pode procurar um CRAS (Centro de Referência de Assistência Social) pertinho de você! Leve os documentos da sua família e boa sorte nesse processo! 🍀",
+    "Claro! O lugar certo é o CRAS. Vá até o mais próximo e não esqueça de levar documentos seus e de todos da família. Vai dar tudo certo! 🤗",
+    "Para se inscrever, é só ir até um CRAS (Centro de Referência de Assistência Social). Eles vão te orientar direitinho! ✨",
+    "O CRAS é o caminho certo! 💙 Leve RG, CPF e comprovante de residência, tanto seus quanto da família. Lá você recebe todas as orientações."
+  ],
+  "formal": [
+    "As inscrições nos programas de auxílio do governo devem ser realizadas no CRAS (Centro de Referência de Assistência Social), mediante apresentação da documentação familiar.",
+    "Para efetivar a inscrição em programas sociais, compareça ao CRAS mais próximo, levando documentos pessoais e dos membros da sua família.",
+    "O processo de inscrição ocorre no CRAS, onde é necessário apresentar RG, CPF, comprovante de residência e demais documentos da família.",
+    "Recomenda-se dirigir-se ao CRAS do seu bairro para inscrição em programas de auxílio. A apresentação da documentação completa é obrigatória."
+  ],
+  "direta": [
+    "Inscreva-se no CRAS da sua cidade. Leve documentos pessoais e da família.",
+    "Procure o CRAS mais próximo. Lá você faz a inscrição levando seus documentos.",
+    "A inscrição é feita no CRAS. Vá com seus documentos e dos familiares.",
+    "CRAS do seu bairro. Leve RG, CPF e comprovante de residência para inscrição."
+  ]
+},
   "Onde está localizada a Estátua de Padre Cícero?": {
     "gentil": [
       "💛 A Estátua de Padre Cícero fica na Colina do Horto, em Juazeiro do Norte. É um lugar acolhedor e perfeito para uma visita tranquila.",
