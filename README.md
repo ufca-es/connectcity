@@ -1,4 +1,5 @@
 # Chatbot ConnectCity
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE) 
 ## Descrição do Projeto
 O ConnectCity é um chatbot simples, desenvolvido para ajudar usuários a encontrarem locais de interesse na cidade. Ele interage via terminal e, a partir de uma solicitação, retorna informações essenciais como endereço, horário de funcionamento e outros detalhes básicos sobre o local desejado.
 
@@ -15,24 +16,33 @@ O Chatbot ConnectCity oferece as seguintes funcionalidades principais:
 
 - Geração de Relatório: Cria um resumo da sessão de conversa em um arquivo de texto ao final da execução.
 
+## Comandos do Bot
+Durante a conversa, você pode usar os seguintes comandos para interagir com o bot:
+
+- SAIR: Encerra a execução do programa a qualquer momento.
+
+- /mudar: Permite alterar a personalidade do bot (gentil, formal ou direta) no meio da conversa.
+
+- Cancelar Aprendizado: Caso o bot não saiba uma resposta e pergunte "Me ensine a resposta:", você pode digitar "não sei" ou "cancelar" para interromper o processo de aprendizado.
+
 ## Estrutura do Projeto
 A organização dos arquivos e diretórios visa manter o código modular e de fácil manutenção:
 ```
-├── chatbot/                # Módulos de lógica do bot
-│   ├── __init__.py
-│   ├── chatbot.py          # Lógica principal de busca e retorno de locais
-│   ├── historico.py        # Gerenciamento de histórico de interações
-│   ├── estatisticas.py     # Coleta de estatísticas de uso
-│   └── aprendizado.py      # Lógica para "aprender" novos locais
+├── chatbot/                # Módulos de lógica do bot
+│   ├── __init__.py
+│   ├── chatbot.py          # Lógica principal de busca e retorno de locais
+│   ├── historico.py        # Gerenciamento de histórico de interações
+│   ├── estatisticas.py     # Coleta de estatísticas de uso
+│   └── aprendizado.py      # Lógica para "aprender" novos locais
 │
-├── data/                   # Arquivos de dados
-│   ├── perguntas_respostas.json  # Base de dados de locais
-│   ├── historico.txt
-│   └── aprendizado.txt
+├── data/                   # Arquivos de dados
+│   ├── perguntas_respostas.json  # Base de dados de locais
+│   ├── historico.txt
+│   └── aprendizado.txt
 │
 ├── .gitignore
 ├── README.md
-└── main.py                 # Ponto de entrada do programa
+└── main.py                 # Ponto de entrada do programa
 ```
 ## Como Executar
 Siga os passos abaixo para rodar o Chatbot ConnectCity em sua máquina.
@@ -45,7 +55,7 @@ Clone o Repositório:
 ```
 Bash
 
-git clone https://github.com/ufca-es/connectcity
+git clone [https://github.com/ufca-es/connectcity](https://github.com/ufca-es/connectcity)
 cd connectcity
 ```
 ### Execute o Programa:
@@ -55,8 +65,7 @@ Bash
 
 python main.py
 ```
-### Demonstração
-.............................
+## Demonstração
 
 # Autores
 Feito com dedicação por:
