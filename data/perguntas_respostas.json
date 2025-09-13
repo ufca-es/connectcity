@@ -1,6 +1,9 @@
 {
   "Preciso de apoio psicológico": {
-    "gentil": "💜Busque ajuda no CAPS (Centro de Ajuda Psicossocial), que faz parte do SUS. Ou vá ao posto de saúde mais próximo e peça um encaminhamento. Você não está sozinho!💜",
+    "gentil": [
+      "💜Busque ajuda no CAPS (Centro de Ajuda Psicossocial), que faz parte do SUS. Ou vá ao posto de saúde mais próximo e peça um encaminhamento. Você não está sozinho!💜",
+      "Essa é uma pergunta importante! Busque ajuda no CAPS (Centro de Ajuda Psicossocial).\nMas você também pode ir ao posto de saúde para conseguir um encaminhamento."
+    ],
     "formal": "Procure ajuda no Centro de Ajuda Psicossocial (CAPS) da sua cidade. Posso te ajudar a encontrar, se desejar.",
     "direta": "Procure o CAPS local. O mais próximo de você está no endereço (XXXXXXX)."
   },

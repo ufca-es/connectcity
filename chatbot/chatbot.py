@@ -1,6 +1,7 @@
 import os
 import json
 import unicodedata 
+import random
 from .aprendizado import Aprendizado
 
 class ChatBot:
@@ -35,8 +36,12 @@ class ChatBot:
             chave_normalizada = self._normalizar_texto(chave_pergunta)
             if all(palavra in chave_normalizada for palavra in pergunta_formatada.split()):
                 if personalidade_formatada in self.base[chave_pergunta]:
-                    return self.base[chave_pergunta][personalidade_formatada]
-        
+                    respostas = self.base[chave_pergunta][personalidade_formatada]
+                    if isinstance(respostas, str):
+                        return respostas
+                    elif isinstance(respostas, list):
+                        return random.choice(respostas)
+                    
         # 2. Procurar nos itens aprendidos
         for item in self.aprendizado.carregar():
             pergunta_aprendida_normalizada = self._normalizar_texto(item["pergunta"])
