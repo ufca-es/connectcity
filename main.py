@@ -9,7 +9,7 @@ def main():
         return
 
     print('Bem-vindo ao Connectcity. Digite SAIR para encerrar.')
-    personalidade = input('Escolha a maneira como quer ser atendido (gentil, formal ou direta): ').lower()
+    personalidade = input('Escolha a maneira como quer ser atendido (formal, engraçada, rude): ').lower()
     print(f"Certo, seu atendimento será feito de forma ({personalidade}).")
 
     while True:
