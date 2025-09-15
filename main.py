@@ -1,25 +1,49 @@
 import os
 from chatbot.chatbot import ChatBot
+from chatbot.historico import Historico
 
 def main():
     caminho_dados = os.path.join("data", "perguntas_respostas.json")
-    bot = ChatBot(caminho_dados)
+    historico = Historico()
+    bot = ChatBot(caminho_dados, historico)
 
     if bot.base is None:
         return
+    
+    ultimas = historico.ultimas_interacoes(5)
+    if ultimas:
+        print("\n=== Últimas 5 interações anteriores ===")
+        for linha in ultimas:
+            print(linha)
+        print("=======================================\n")
+    else:
+        print("Nenhum histórico anterior encontrado.\n")
 
     print('Bem-vindo ao Connectcity. Digite SAIR para encerrar.')
-    personalidade = input('Escolha a maneira como quer ser atendido (formal, engraçada, rude): ').lower()
+    
+    personalidades_validas = bot.obter_personalidades_disponiveis()
+    while True:
+        personalidade = input(f'Escolha a maneira como quer ser atendido ({", ".join(personalidades_validas)}): ').lower()
+        if personalidade in personalidades_validas:
+            break
+        else:
+            print("Essa personalidade não existe. Por favor, tente novamente.")
+
     print(f"Certo, seu atendimento será feito de forma ({personalidade}).")
 
     while True:
         pergunta = input('Em que posso ajudar? ').lower()
 
         if pergunta == '/mudar':
-            personalidade = input('Para qual personalidade deseja mudar? (gentil, formal, direta): ').lower()
-            print(f"Personalidade alterada para ({personalidade}).")
-            continue  # Volta para o início do loop sem processar a pergunta
-
+            while True:
+                personalidade = input(f'Para qual personalidade deseja mudar? ({", ".join(personalidades_validas)}): ').lower()
+                if personalidade in personalidades_validas:
+                    print(f"Personalidade alterada para ({personalidade}).")
+                    break
+                else:
+                    print("Essa personalidade não existe. Por favor, tente novamente.")
+            continue
+        
         if pergunta == 'sair':
             print('Foi um prazer tentar te ajudar. Até logo!')
             break
