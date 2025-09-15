@@ -69,9 +69,9 @@ python main.py
 
 # Autores
 Feito com dedicação por:
-| Equipe | GitHub |
-|---|---|
-| David Josué Vital Santos | [@davidvital-dev](https://github.com/davidvital-dev) |
-| Salomão Rodrigues Silva | [@salomaosilvaa](https://github.com/salomaosilvaa) |
-| Carlos Eduardo Bezerra Santos | [@carlossan25c](https://github.com/carlossan25c) |
-| Dorian Dayvid Gomes Feitosa | [@OtherDinosaur](https://github.com/OtherDinosaur) |
+| Equipe | GitHub | Cargos/Funções |
+|---|---|---|
+| David Josué Vital Santos | [@davidvital-dev](https://github.com/davidvital-dev) | Gerente de Projeto e Integrador |
+| Salomão Rodrigues Silva | [@salomaosilvaa](https://github.com/salomaosilvaa) | Desenvolvedor Back-End |
+| Carlos Eduardo Bezerra Santos | [@carlossan25c](https://github.com/carlossan25c) | Testador e QA |
+| Dorian Dayvid Gomes Feitosa | [@OtherDinosaur](https://github.com/OtherDinosaur) | Desenvolvedor Front-End |
