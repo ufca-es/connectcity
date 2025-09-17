@@ -21,7 +21,7 @@ Durante a conversa, você pode usar os seguintes comandos para interagir com o b
 
 - SAIR: Encerra a execução do programa a qualquer momento.
 
-- /mudar: Permite alterar a personalidade do bot (gentil, formal ou direta) no meio da conversa.
+- /mudar: Permite alterar a personalidade do bot (divertida, formal, rude) no meio da conversa.
 
 - Cancelar Aprendizado: Caso o bot não saiba uma resposta e pergunte "Me ensine a resposta:", você pode digitar "não sei" ou "cancelar" para interromper o processo de aprendizado.
 
@@ -34,11 +34,13 @@ A organização dos arquivos e diretórios visa manter o código modular e de f�
 │   ├── historico.py        # Gerenciamento de histórico de interações
 │   ├── estatisticas.py     # Coleta de estatísticas de uso
 │   └── aprendizado.py      # Lógica para "aprender" novos locais
+│   └── relatorio.py        # Relatório legível ao usuário final
 │
 ├── data/                   # Arquivos de dados
 │   ├── perguntas_respostas.json  # Base de dados de locais
 │   ├── historico.txt
 │   └── aprendizado.txt
+│   └── relatorio.txt
 │
 ├── .gitignore
 ├── README.md
