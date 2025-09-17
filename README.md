@@ -21,7 +21,7 @@ Durante a conversa, você pode usar os seguintes comandos para interagir com o b
 
 - SAIR: Encerra a execução do programa a qualquer momento.
 
-- /mudar: Permite alterar a personalidade do bot (gentil, formal ou direta) no meio da conversa.
+- /mudar: Permite alterar a personalidade do bot (divertida, formal, rude) no meio da conversa.
 
 - Cancelar Aprendizado: Caso o bot não saiba uma resposta e pergunte "Me ensine a resposta:", você pode digitar "não sei" ou "cancelar" para interromper o processo de aprendizado.
 
