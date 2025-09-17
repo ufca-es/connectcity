@@ -34,11 +34,13 @@ A organização dos arquivos e diretórios visa manter o código modular e de f�
 │   ├── historico.py        # Gerenciamento de histórico de interações
 │   ├── estatisticas.py     # Coleta de estatísticas de uso
 │   └── aprendizado.py      # Lógica para "aprender" novos locais
+│   └── relatorio.py        # Relatório legível ao usuário final
 │
 ├── data/                   # Arquivos de dados
 │   ├── perguntas_respostas.json  # Base de dados de locais
 │   ├── historico.txt
 │   └── aprendizado.txt
+│   └── relatorio.txt
 │
 ├── .gitignore
 ├── README.md
