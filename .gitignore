@@ -1,13 +1,33 @@
+# Python
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 
-
+# Ambientes virtuais
 venv/
+env/
 .venv/
 
-/relatorio.txt
-/historico.txt
-/aprendizado.txt
+# Streamlit
+.streamlit/
 
+# IDEs
+.vscode/
+.idea/
+
+# Sistema operacional
 .DS_Store
 Thumbs.db
+
+# Logs
+*.log
+
+# Arquivos temporários
+*~
+*.swp
+*.tmp
+
+# Dados gerados pelo projeto (exceto .gitkeep)
+data/*
+!data/.gitkeep
