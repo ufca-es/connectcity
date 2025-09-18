@@ -32,7 +32,7 @@ A organização dos arquivos e diretórios visa manter o código modular e de f�
 │   ├── __init__.py
 │   ├── chatbot.py          # Lógica principal de busca e retorno de locais
 │   ├── historico.py        # Gerenciamento de histórico de interações
-│   ├── estatisticas.py     # Coleta de estatísticas de uso
+│   ├── estatisticas.py     # Coleta de estatísticas de uso 
 │   └── aprendizado.py      # Lógica para "aprender" novos locais
 │   └── relatorio.py        # Relatório legível ao usuário final
 │

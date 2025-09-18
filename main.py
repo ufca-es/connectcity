@@ -1,6 +1,8 @@
 import os
 from chatbot.chatbot import ChatBot
 from chatbot.historico import Historico
+from chatbot.relatorio import Relatorio
+from chatbot.estatisticas import Estatisticas
 
 def main():
     caminho_dados = os.path.join("data", "perguntas_respostas.json")
@@ -50,6 +52,13 @@ def main():
         
         resposta = bot.obter_resposta(pergunta, personalidade)
         print(resposta)
+    
+    # Gera o relatório com estatísticas ao sair
+    gerador_relatorio = Relatorio()
+    coletor_estatisticas = Estatisticas()
+    estatisticas_coletadas = coletor_estatisticas.coletar_estatisticas(historico)
+    gerador_relatorio.gerar_relatorio(historico, estatisticas_coletadas)
+    print(f"Relatório de interações gerado com sucesso em '{gerador_relatorio.caminho_relatorio}'.")
 
 if __name__ == "__main__":
     main()
