@@ -1,0 +1,19 @@
+=== Histórico de Conversas ===
+Usuário: Onde fica a UFCA?
+Bot: O endereço do campus da UFCA é Avenida Tenente Raimundo Rocha, nº 1639 – Cidade Universitária, Juazeiro do Norte – CE. | Personalidade: formal
+Usuário: Onde fica o Cariri Garden Shopping?
+Bot: O Cariri Garden Shopping encontra-se na Avenida Padre Cícero, nº 2555 – Triângulo, em Juazeiro do Norte – CE. | Personalidade: formal
+Usuário: hospital
+Bot: O Hospital Regional do Cariri está situado na Rua Catulo da Paixão Cearense, bairro Triângulo, em Juazeiro do Norte – CE. | Personalidade: formal
+Usuário: prefeitura
+Bot: A Prefeitura Municipal de Juazeiro do Norte, situada na Rua São Francisco, nº 122 – Centro, é responsável pelos serviços administrativos da cidade. | Personalidade: formal
+Usuário: hospital
+Bot: O endereço do Hospital Regional do Cariri é Rua Catulo da Paixão Cearense, bairro Triângulo, Juazeiro do Norte – CE. | Personalidade: formal
+Usuário: sangue
+Bot: Não sei responder isso ainda... | Personalidade: formal
+Usuário: hospitaç
+Bot: Não sei responder isso ainda... | Personalidade: formal
+Usuário: cancelar
+Bot: Não sei responder isso ainda... | Personalidade: formal
+Usuário: prefeitura
+Bot: A Prefeitura Municipal de Juazeiro do Norte está localizada na Rua São Francisco, nº 122 – Centro. | Personalidade: formal
