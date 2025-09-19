@@ -95,7 +95,7 @@ class ChatBot:
 
             # Calcula score baseado na interseção
             intersecao = palavras_chave.intersection(palavras_pergunta)
-            score = len(intersecao) / len(palavras_chave)
+            score = len(intersecao) / len(palavras_pergunta)
 
             if score > melhor_score:
                 melhor_score = score

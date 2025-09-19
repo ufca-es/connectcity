@@ -32,49 +32,40 @@ def main():
         # Verifica se está no modo aprendizado
         resposta_aprendizado = interface.exibir_modo_aprendizado()
 
+        # Processa a resposta do modo aprendizado, se houver
         if resposta_aprendizado:
             processar_aprendizado(resposta_aprendizado, personalidade)
+            st.rerun() # Recarrega para limpar o form de aprendizado e mostrar o resultado
 
-        # Área de entrada do usuário
-        st.markdown("---")
+    # Área de entrada do usuário
+    st.markdown("---")
 
-        # Inicializar estado para controlar processamento
-        if 'processar_pergunta' not in st.session_state:
-            st.session_state.processar_pergunta = False
-        if 'pergunta_atual' not in st.session_state:
-            st.session_state.pergunta_atual = ""
+    # Form para entrada de texto
+    with st.form(key="pergunta_form", clear_on_submit=True):
+        col1, col2 = st.columns([5, 1])
 
-        # Form para entrada de texto (resolve problema com Enter)
-        with st.form(key="pergunta_form", clear_on_submit=True):
-            col1, col2 = st.columns([5, 1])
+        with col1:
+            pergunta = st.text_input(
+                "Digite sua pergunta:",
+                placeholder="Digite sua pergunta sobre Juazeiro do Norte...",
+                key="pergunta_input",
+                label_visibility="collapsed"
+            )
 
-            with col1:
-                pergunta = st.text_input(
-                    "Digite sua pergunta:",
-                    placeholder="Digite sua pergunta sobre Juazeiro do Norte...",
-                    key="pergunta_input",
-                    label_visibility="collapsed"
-                )
+        with col2:
+            enviar = st.form_submit_button(
+                "📤 Enviar",
+                type="primary",
+                use_container_width=True
+            )
 
-            with col2:
-                enviar = st.form_submit_button(
-                    "📤 Enviar",
-                    type="primary",
-                    use_container_width=True
-                )
+        # Se o formulário foi enviado com uma pergunta válida
+        if enviar and pergunta.strip():
+            # Processa a pergunta imediatamente
+            processar_pergunta(pergunta, personalidade)
+            # Força um recarregamento para exibir a nova conversa na tela
+            st.rerun()
 
-            # Quando o form é submetido, armazena os dados para processamento
-            if enviar and pergunta.strip():
-                st.session_state.processar_pergunta = True
-                st.session_state.pergunta_atual = pergunta
-                st.rerun()  # Força recarregamento da página
-
-        # Processa a pergunta fora do form para que a tela seja atualizada
-        if st.session_state.processar_pergunta and st.session_state.pergunta_atual.strip():
-            pergunta_para_processar = st.session_state.pergunta_atual
-            st.session_state.pergunta_atual = ""  # Limpa após processar
-            st.session_state.processar_pergunta = False  # Reseta flag
-            processar_pergunta(pergunta_para_processar, personalidade)
 
 def processar_pergunta(pergunta, personalidade):
     """Processa a pergunta do usuário"""
@@ -92,6 +83,7 @@ def processar_pergunta(pergunta, personalidade):
     else:
         interface.adicionar_ao_historico("Bot", resposta, personalidade)
 
+
 def processar_aprendizado(resposta_usuario, personalidade):
     """Processa o aprendizado do chatbot"""
     chatbot = gerenciador_estado.obter_chatbot()
@@ -108,6 +100,7 @@ def processar_aprendizado(resposta_usuario, personalidade):
     gerenciador_estado.limpar_modo_aprendizado()
 
     st.success("Resposta processada!")
+
 
 if __name__ == "__main__":
     main()
