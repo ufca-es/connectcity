@@ -36,8 +36,10 @@ INTERFACE = {
 
 # Configurações de arquivos
 CAMINHOS = {
-    "dados": "config/perguntas_respostas.json",
+    "dados": "connectcity/config/perguntas_respostas.json",
     "historico": "data/historico.txt",
     "aprendizado": "data/aprendizado.txt",
     "relatorio": "data/relatorio.txt"
 }
+
+

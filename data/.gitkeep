@@ -1,6 +1,0 @@
-# Esta pasta contém arquivos gerados dinamicamente pelo ConnectCity
-# - aprendizado.txt: Aprendizados do chatbot
-# - historico.txt: Histórico de conversas
-# - relatorio.txt: Relatórios do sistema
-#
-# Estes arquivos são ignorados pelo .gitignore pois são gerados em runtime

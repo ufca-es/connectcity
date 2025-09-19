@@ -1,0 +1,24 @@
+### Relatório de Interações do Chatbot ###
+=======================================
+
+--- Estatísticas Gerais ---
+Total de Interações: 2
+Pergunta mais feita: "onde fica a ufca" (feita 1 vezes)
+Personalidade mais usada: Formal
+Perguntas não respondidas: 0
+
+Detalhes por Personalidade:
+- Formal: 2 interações
+--------------------
+
+--- Histórico Completo das Interações ---
+Interação 1:
+  Usuário: Onde fica a UFCA?
+  Bot: O endereço do campus da UFCA é Avenida Tenente Raimundo Rocha, nº 1639 – Cidade Universitária, Juazeiro do Norte – CE.
+  Personalidade: formal
+
+Interação 2:
+  Usuário: Onde fica o Cariri Garden Shopping?
+  Bot: O Cariri Garden Shopping encontra-se na Avenida Padre Cícero, nº 2555 – Triângulo, em Juazeiro do Norte – CE.
+  Personalidade: formal
+

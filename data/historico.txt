@@ -1,0 +1,5 @@
+=== Histórico de Conversas ===
+Usuário: Onde fica a UFCA?
+Bot: O endereço do campus da UFCA é Avenida Tenente Raimundo Rocha, nº 1639 – Cidade Universitária, Juazeiro do Norte – CE. | Personalidade: formal
+Usuário: Onde fica o Cariri Garden Shopping?
+Bot: O Cariri Garden Shopping encontra-se na Avenida Padre Cícero, nº 2555 – Triângulo, em Juazeiro do Norte – CE. | Personalidade: formal
