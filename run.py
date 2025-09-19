@@ -7,10 +7,11 @@ import sys
 import os
 import time
 
-# Adiciona o diretório raiz do projeto ao sys.path
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+# Adiciona o diretório do projeto ao sys.path para que 'connectcity' seja um pacote
+project_root = os.path.abspath(os.path.dirname(__file__))
+sys.path.insert(0, project_root)
 
-from connectcity.chatbot.report_generator import ReportGenerator
+from chatbot.report_generator import ReportGenerator
 
 def main():
     """
@@ -22,12 +23,15 @@ def main():
         # Caminho para o arquivo app.py
         app_path = os.path.join(os.path.dirname(__file__), "app.py")
 
-        # Executa o Streamlit em segundo plano
+        # Define o PYTHONPATH para o processo filho
+        env = os.environ.copy()
+        
+        # Inicia o Streamlit como um processo filho
         process = subprocess.Popen([
             sys.executable, "-m", "streamlit", "run", app_path,
             "--server.headless", "true",
             "--server.port", "8501"
-        ])
+        ], env=env)
         print(f"Streamlit iniciado com PID: {process.pid}")
         print("Aguardando interações... Pressione Ctrl+C para encerrar e gerar o relatório.")
 

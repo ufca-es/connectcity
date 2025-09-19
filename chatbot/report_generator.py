@@ -2,7 +2,7 @@ import os
 from .historico import Historico
 from .estatisticas import Estatisticas
 from .relatorio import Relatorio
-from connectcity.config.configuracoes import CAMINHOS
+from config.configuracoes import CAMINHOS
 
 class ReportGenerator:
     def __init__(self):
