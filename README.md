@@ -193,7 +193,8 @@ Usuário (turista): Quais as romarias de Juazeiro do Norte?
 Bot: O endereço da Prefeitura é Rua São Francisco, nº 122, bairro Centro, Juazeiro do Norte – CE.
 --- Fim da Simulação ---
 ```
-
+## Autores
+Feito com empenho por:
 | Equipe | GitHub | Cargos/Funções |
 |---|---|---|
 | David Josué Vital Santos | [@davidvital-dev](https://github.com/davidvital-dev) | Gerente de Projeto e Integrador |
