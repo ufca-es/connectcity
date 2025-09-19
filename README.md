@@ -149,6 +149,51 @@ O chatbot inclui um módulo de geração de relatórios (`chatbot/report_generat
 - **Relatórios Abrangentes**: Gerar relatórios detalhados que podem ser utilizados para monitorar o desempenho do chatbot, identificar áreas de melhoria e entender melhor as necessidades dos usuários.
 - **Histórico de Interações**: O histórico de todas as conversas é mantido em `data/historico.txt`, servindo como base para a análise e geração de relatórios.
 
+## Exemplo de Uso
+
+Abaixo, um exemplo de interação simulada com o ConnectCity Chatbot, demonstrando como ele responde a perguntas e como o mecanismo de aprendizado funciona quando uma resposta não é encontrada na base de conhecimento inicial.
+
+```
+--- Simulação de Interação com ConnectCity Chatbot ---
+
+Usuário (turista): Olá, qual o nome da cidade?
+Bot: O Cariri Garden Shopping, situado na Avenida Padre Cícero, 2555 – Triângulo, oferece ampla estrutura de compras, lazer e serviços.
+
+Usuário (turista): Onde fica a estátua do Padre Cícero?
+Bot: O monumento está situado na Colina do Horto, Juazeiro do Norte – CE, sendo um ponto de peregrinação e interesse cultural.
+
+Usuário (morador): Quais os principais eventos religiosos?
+Bot: Não sei responder isso ainda...
+Bot: Por favor, me ensine a resposta para isso.
+Usuário (ensinando): A Estátua do Padre Cícero fica no Horto, um local de peregrinação e vista panorâmica da cidade.
+Bot: Entendido, vou me lembrar disso da próxima vez.
+
+Usuário (morador): Qual o horário de funcionamento do comércio local?
+Bot: O Cariri Garden Shopping encontra-se na Avenida Padre Cícero, nº 2555 – Triângulo, em Juazeiro do Norte – CE.
+
+Usuário (turista): Qual a história de Juazeiro do Norte?
+Bot: A Prefeitura Municipal de Juazeiro do Norte, situada na Rua São Francisco, nº 122 – Centro, é responsável pelos serviços administrativos da cidade.
+
+Usuário (turista): O que fazer em Juazeiro do Norte?
+Bot: O campus da Universidade Federal do Cariri (UFCA) localiza-se na Avenida Tenente Raimundo Rocha, nº 1639 – Cidade Universitária.
+
+Usuário (formal): Como posso contribuir para o aprendizado do bot?
+Bot: Não sei responder isso ainda...
+Bot: Por favor, me ensine a resposta para isso.
+Usuário (ensinando): A Estátua do Padre Cícero fica no Horto, um local de peregrinação e vista panorâmica da cidade.
+Bot: Entendido, vou me lembrar disso da próxima vez.
+
+Usuário (formal): Não sei responder isso ainda...
+Bot: Não sei responder isso ainda...
+Bot: Por favor, me ensine a resposta para isso.
+Usuário (ensinando): A Estátua do Padre Cícero fica no Horto, um local de peregrinação e vista panorâmica da cidade.
+Bot: Entendido, vou me lembrar disso da próxima vez.
+
+Usuário (turista): Quais as romarias de Juazeiro do Norte?
+Bot: O endereço da Prefeitura é Rua São Francisco, nº 122, bairro Centro, Juazeiro do Norte – CE.
+--- Fim da Simulação ---
+```
+
 | Equipe | GitHub | Cargos/Funções |
 |---|---|---|
 | David Josué Vital Santos | [@davidvital-dev](https://github.com/davidvital-dev) | Gerente de Projeto e Integrador |
